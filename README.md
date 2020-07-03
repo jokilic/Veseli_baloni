@@ -3,7 +3,7 @@
 Veseli baloni is a simple game made in **Unity**.
 It features baloons that can be popped.
 
-### Game can be downloaded from [HERE](https://github.com/jokilic/Veseli_baloni/raw/master/veseli_baloni.apk).
+### Game can be downloaded from [HERE](https://github.com/jokilic/Veseli_baloni/releases/download/1.0/veseli_baloni.apk).
 
 ## Three modes of play
 
