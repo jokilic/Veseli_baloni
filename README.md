@@ -1,4 +1,4 @@
-![Header](https://raw.githubusercontent.com/Veseli_baloni/master/screenshots/header.png)
+![Header](https://raw.githubusercontent.com/jokilic/Veseli_baloni/master/screenshots/header.png)
 
 # Veseli baloni
 
@@ -8,7 +8,7 @@ Online highscores are available so you can compete with your friends and see who
 
 ### Game can be downloaded from [HERE](https://github.com/jokilic/Veseli_baloni/releases/download/1.0/veseli_baloni.apk).
 
-![Multi](https://raw.githubusercontent.com/Veseli_baloni/master/screenshots/multi.png)
+![Multi](https://raw.githubusercontent.com/jokilic/Veseli_baloni/master/screenshots/multi.png)
 
 ## Three modes of play
 
@@ -17,14 +17,14 @@ Online highscores are available so you can compete with your friends and see who
 You can play until you're sick of the game.
 There is no Game Over, the baloons just keep coming and you can pop as long as you want.
 
-![Casual](https://raw.githubusercontent.com/Veseli_baloni/master/screenshots/casual.png)
+![Casual](https://raw.githubusercontent.com/jokilic/Veseli_baloni/master/screenshots/casual.png)
 
 ### Normal mode
 
 Normal mode is a bit different.
 The baloons are smaller and if you miss 5 baloons, it's game over.
 
-![Normal](https://raw.githubusercontent.com/Veseli_baloni/master/screenshots/normal.png)
+![Normal](https://raw.githubusercontent.com/jokilic/Veseli_baloni/master/screenshots/normal.png)
 
 ### Tony mode
 
@@ -34,14 +34,14 @@ While I was working on this game, I realised I have a lot of his photos in my ga
 The game rules are identical to Casual mode.
 Pop Tonys heads for as long as you like!
 
-![Tony](https://raw.githubusercontent.com/Veseli_baloni/master/screenshots/tony.png)
+![Tony](https://raw.githubusercontent.com/jokilic/Veseli_baloni/master/screenshots/tony.png)
 
 ## Highscores
 
 I have implemented online highscores for every mode.
 Check if you have what it takes to be at the number one.
 
-![Highscores](https://raw.githubusercontent.com/Veseli_baloni/master/screenshots/highscores.png)
+![Highscores](https://raw.githubusercontent.com/jokilic/Veseli_baloni/master/screenshots/highscores.png)
 
 ## Some screenshots
 
