@@ -1,4 +1,4 @@
-![Header](https://raw.githubusercontent.com/jokilic/Veseli_baloni/master/screenshots/header.png)
+![Header](https://raw.githubusercontent.com/jokilic/Veseli_baloni/master/screenshots/header-wide.png)
 
 # Veseli baloni
 
@@ -6,7 +6,7 @@ Veseli baloni is a simple game made in **Unity**.
 It features baloons that can be popped.
 Online highscores are available so you can compete with your friends and see who is the master of  Veseli baloni.
 
-### Game can be downloaded from [HERE](https://github.com/jokilic/Veseli_baloni/releases/download/1.0/veseli_baloni.apk).
+### Game can be downloaded from [HERE](https://play.google.com/store/apps/details?id=com.josipkilic.veselibaloni).
 
 ![Multi](https://raw.githubusercontent.com/jokilic/Veseli_baloni/master/screenshots/multi.png)
 

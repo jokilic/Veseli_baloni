@@ -86,11 +86,11 @@
      <Compile Include="Assets\Scripts\Tony\TonysHighscores.cs" />
      <Compile Include="Assets\Scripts\Tony\TonysMover.cs" />
      <Compile Include="Assets\Scripts\Tony\TonysRandomRotator.cs" />
- <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Josip K/Documents/Projects/Veseli_baloni/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Josip K/Documents/Projects/Veseli_baloni/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/Josip K/Documents/Projects/Veseli_baloni/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>C:/Users/Josip K/Documents/Projects/Veseli_baloni/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
