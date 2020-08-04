@@ -10,11 +10,13 @@ public class DestroyByBoundary : MonoBehaviour
 
 
 	void OnTriggerExit(Collider other)
-	{
-		missed++;
-		Destroy (other.gameObject);
-		if (missed == missedBallons)
-			gameController.GameOver();
+	{	
+		if(other.gameObject.tag == "Baloon") {
+			missed++;
+			Destroy (other.gameObject);
+			if (missed == missedBallons)
+				gameController.GameOver();
+		}
 	}
 
 	void Update()

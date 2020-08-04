@@ -4,13 +4,20 @@ using System.Collections;
 
 public class GameController : MonoBehaviour
 {
-	public GameObject[] baloni;
+	public GameObject[] baloons;
+	public GameObject specialBaloon;
 	public Vector3 spawnValues;
 	public int brojBalona;
 	public float spawnWait;
 	public float startWait;
 	public float waveWait;
+	public float specialBaloonWaitStartValue;
+	public float specialBaloonWaitEndValue;
     public float speed;
+	public float specialSpeed;
+	public AudioClip speedUpSound;
+	public AudioClip specialSound;
+    public AudioSource sound;
 
 	public GUIText restartText;
 	public GUIText gameOverText;
@@ -21,7 +28,7 @@ public class GameController : MonoBehaviour
     private string username;
     private int score;
     private int highscore;
-    private AudioSource sound;
+	private float specialBaloonWait;
 
 	void Start()
 	{
@@ -31,9 +38,13 @@ public class GameController : MonoBehaviour
 		restartText.text = "";
 		gameOverText.text = "";
 		score = 0;
+		specialSpeed = speed * 2;
         username = PlayerPrefs.GetString("player");
+		specialBaloonWait = Random.Range(specialBaloonWaitStartValue, specialBaloonWaitEndValue);
+
 		UpdateScore ();
 		StartCoroutine (SpawnWaves ());
+        InvokeRepeating("SpawnSpecial", specialBaloonWait, specialBaloonWait);
         InvokeRepeating("SpeedUp", 15.0f, 15.0f);
     }
 
@@ -65,10 +76,9 @@ public class GameController : MonoBehaviour
 		yield return new WaitForSeconds (startWait);
 		while(true)
 		{
-			
 			for (int i = 0; i < brojBalona; i++)
 				{
-					GameObject balon = baloni [Random.Range (0, baloni.Length)];
+					GameObject balon = baloons [Random.Range (0, baloons.Length)];
 					Vector3 spawnPosition = new Vector3 (Random.Range (-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
 					Quaternion spawnRotation = Quaternion.identity;
 					Instantiate (balon, spawnPosition, spawnRotation);
@@ -86,6 +96,15 @@ public class GameController : MonoBehaviour
 		}
 	}
 
+	void SpawnSpecial()
+	{
+		specialBaloonWait = Random.Range(specialBaloonWaitStartValue, specialBaloonWaitEndValue);
+
+		Vector3 spawnPosition = new Vector3 (Random.Range (-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
+		Quaternion spawnRotation = Quaternion.identity;
+		Instantiate (specialBaloon, spawnPosition, spawnRotation);
+	}
+
 	public void AddScore(int newScoreValue)
 	{
 		score += newScoreValue;
@@ -99,8 +118,9 @@ public class GameController : MonoBehaviour
 
     void SpeedUp()
     {
-        sound.Play();
+        sound.PlayOneShot(speedUpSound, 1);
         speed += 0.05f;
+		specialSpeed = speed * 2;
     }
 
     public void GameOver()

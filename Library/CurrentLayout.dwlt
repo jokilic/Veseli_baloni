@@ -278,7 +278,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b2f0ffffccf0ffffcef0ffffd2f0ffffd6f0ffffe2f0ffffe6f0ffffeaf0ffffeef0fffff2f0fffff6f0ffff4cf1ffff66f1ffff68f1ffff6cf1ffff70f1ffff7cf1ffff80f1ffff84f1ffff88f1ffff8cf1ffff90f1fffffef1ffff18f2ffff52f3ffff5cf3ffff60f3ffff70f3ffff74f3ffff80f3ffff84f3ffff88f3ffff8cf3ffffd0f4ffffdef4ffff2af5ffff7af5ffff90f5ffff24f6ffff5cf6ffffaef6ffffbcf6ffffe2f9fffff0f9ffff0afaffffdefbffff622a0000d02c0000842f0000d6300000783100004233000096340000c8370000
+      m_ExpandedIDs: defbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -375,20 +375,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Josip K\Documents\Projects\Veseli_baloni
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: de270000
-    m_LastClickedID: 10206
-    m_ExpandedIDs: 000000009e26000000ca9a3b
+    m_SelectedIDs: a0260000
+    m_LastClickedID: 9888
+    m_ExpandedIDs: 00000000a026000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -416,7 +416,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e260000a8260000
+    m_ExpandedIDs: 00000000a0260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -468,7 +468,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 18}
+    m_ScrollPosition: {x: 0, y: 111}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 142
 --- !u!114 &14
