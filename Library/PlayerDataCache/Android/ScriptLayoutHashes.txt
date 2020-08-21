@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Josip K/Documents/Projects/Veseli_baloni/Builds/veseli_baloni.apk
+C:/Users/Josip K/Documents/Projects/Veseli_baloni/Builds/veseli_baloni.aab
 SceneListBegin?
 Assets/_Scenes/Main.unity
 Assets/_Scenes/Play.unity
@@ -63,6 +63,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 d3c76b14a25eebd3a3323dd43297919c Unity.TextMeshPro.dll:TMPro.TMP_InputField
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Highscores
+3872ae792ad3d3c3852098c3ecf3f802 Assembly-CSharp.dll:.DestroyByContactBomb
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 507174d46dacbc5fe45e28485db5dd1e UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -98,6 +99,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 5499852a5a586d270c255363e7e4d776 Assembly-CSharp.dll:.Explosion
 f2721cea5c23bfaba4e843f4d965a2e5 Assembly-CSharp.dll:.Fade
 afc5b93a7b192de2dcb3832fe35a5c7e Assembly-CSharp.dll:.BGScroller
+6ac55d495ea6d87b96090ba883eece65 Assembly-CSharp.dll:.MoverBomb
 d1c5bd7698210eb980682aa5ed7db5db Assembly-CSharp.dll:.DestroyByBoundary
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -137,7 +139,7 @@ b8a5e8091ab0b8861d2add371082c5e0 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 3094ebca408a0858a4b9ae5f5913a214 Assembly-CSharp.dll:.RandomMusic
 e19b98df5297342d3538b63e6bbf8e59 Assembly-CSharp.dll:.TonysGameCont
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
-063b23173d697370a1bd486ef14fccbe Assembly-CSharp.dll:.GameController
+cd81f487c88abd67cbcc0844abd29143 Assembly-CSharp.dll:.GameController
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.BackToHighscores
 2e52c07b9535fabc4016437c8f59f6df Assembly-CSharp.dll:.DestroyByContactSpecial
 c6acbee7b3037f320c340416059110c8 Assembly-CSharp.dll:.TonysMover
@@ -188,6 +190,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 507174d46dacbc5fe45e28485db5dd1e Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.BackToMain
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+6ac55d495ea6d87b96090ba883eece65 Assembly-CSharp.dll:.MoverSpecial
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CasualHighscores
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.TonyBackToPlay
@@ -195,4 +198,3 @@ df434544c9f7b33d1cc7e635b180d279 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.PlayerName
-6ac55d495ea6d87b96090ba883eece65 Assembly-CSharp.dll:.MoverSpecial

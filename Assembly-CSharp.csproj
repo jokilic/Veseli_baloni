@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\ChangeScene.cs" />
      <Compile Include="Assets\Scripts\DestroyByBoundary.cs" />
      <Compile Include="Assets\Scripts\DestroyByContact.cs" />
+     <Compile Include="Assets\Scripts\DestroyByContactBomb.cs" />
      <Compile Include="Assets\Scripts\DestroyByContactSpecial.cs" />
      <Compile Include="Assets\Scripts\DestroyByTime.cs" />
      <Compile Include="Assets\Scripts\DisplayHighscores.cs" />
@@ -76,6 +77,7 @@
      <Compile Include="Assets\Scripts\Highscores.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\Mover.cs" />
+     <Compile Include="Assets\Scripts\MoverBomb.cs" />
      <Compile Include="Assets\Scripts\MoverSpecial.cs" />
      <Compile Include="Assets\Scripts\PlayerName.cs" />
      <Compile Include="Assets\Scripts\Quit.cs" />

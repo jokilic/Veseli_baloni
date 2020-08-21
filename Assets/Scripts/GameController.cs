@@ -6,6 +6,7 @@ public class GameController : MonoBehaviour
 {
 	public GameObject[] baloons;
 	public GameObject specialBaloon;
+	public GameObject bomb;
 	public Vector3 spawnValues;
 	public int brojBalona;
 	public float spawnWait;
@@ -13,10 +14,14 @@ public class GameController : MonoBehaviour
 	public float waveWait;
 	public float specialBaloonWaitStartValue;
 	public float specialBaloonWaitEndValue;
+	public float bombWaitStartValue;
+	public float bombWaitEndValue;
     public float speed;
 	public float specialSpeed;
+	public float bombSpeed;
 	public AudioClip speedUpSound;
 	public AudioClip specialSound;
+	public AudioClip bombSound;
     public AudioSource sound;
 
 	public GUIText restartText;
@@ -29,6 +34,7 @@ public class GameController : MonoBehaviour
     private int score;
     private int highscore;
 	private float specialBaloonWait;
+	private float bombWait;
 
 	void Start()
 	{
@@ -39,12 +45,15 @@ public class GameController : MonoBehaviour
 		gameOverText.text = "";
 		score = 0;
 		specialSpeed = speed * 2;
+		bombSpeed = speed * 0.75f;
         username = PlayerPrefs.GetString("player");
 		specialBaloonWait = Random.Range(specialBaloonWaitStartValue, specialBaloonWaitEndValue);
+		bombWait = Random.Range(bombWaitStartValue, bombWaitEndValue);
 
 		UpdateScore ();
 		StartCoroutine (SpawnWaves ());
         InvokeRepeating("SpawnSpecial", specialBaloonWait, specialBaloonWait);
+		InvokeRepeating("SpawnBomb", bombWait, bombWait);
         InvokeRepeating("SpeedUp", 15.0f, 15.0f);
     }
 
@@ -105,6 +114,15 @@ public class GameController : MonoBehaviour
 		Instantiate (specialBaloon, spawnPosition, spawnRotation);
 	}
 
+	void SpawnBomb()
+	{
+		bombWait = Random.Range(bombWaitStartValue, bombWaitEndValue);
+
+		Vector3 spawnPosition = new Vector3 (Random.Range (-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
+		Quaternion spawnRotation = Quaternion.identity;
+		Instantiate (bomb, spawnPosition, spawnRotation);
+	}
+
 	public void AddScore(int newScoreValue)
 	{
 		score += newScoreValue;
@@ -121,6 +139,7 @@ public class GameController : MonoBehaviour
         sound.PlayOneShot(speedUpSound, 1);
         speed += 0.05f;
 		specialSpeed = speed * 2;
+		bombSpeed = speed * 0.75f;
     }
 
     public void GameOver()
